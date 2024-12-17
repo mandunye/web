@@ -1,0 +1,102 @@
+html, body {
+    margin: 0; /* 기본 여백 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+    overflow-x: hidden; /* 수평 스크롤 제거 */
+    width: 100%; /* 헤더의 너비를 100%로 설정 */
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+header {
+    background-image: url(image/1.jpg);
+    background-size: cover; /* 배경 이미지를 꽉 채우도록 설정 */
+    background-position: center; /* 이미지의 중심을 기준으로 배치 */
+    background-attachment: fixed; /* 배경 이미지 고정 */
+    width: 100%; /* 헤더의 너비를 100%로 설정 */}
+
+    /* 네비게이션 영역 */
+    .navbar-nav .nav-link {
+        color: white; /* 기본 색상 */
+    }
+    
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus,
+    .navbar-nav .nav-link.active {
+        color: #07ff34; /* 마우스 오버 및 활성 상태에서의 색상 */
+    }
+
+#hanmady {
+    background-color: #232323; /* 배경색 지정 */
+    color: #ffffff; /* 기본 폰트 색상 지정 */
+}
+
+.highlight {
+    color: #07ff34; /* 강조할 텍스트 색상 */
+}
+
+.table {
+    border-collapse: collapse; /* 테이블 선 제거 */
+    width: 100%; /* 테이블 너비를 100%로 설정 */
+}
+
+.table td {
+    border: none; /* 각 셀의 경계선 제거 */
+    text-align: left; /* 텍스트를 오른쪽 정렬 */
+    padding: 10px; /* 셀 안의 여백을 추가 */
+}
+
+.text-end {
+    text-align: left; /* 텍스트를 오른쪽으로 정렬 */
+}
+
+.table-container {
+    margin-left: auto; /* 왼쪽 마진 자동 조정 */
+    margin-right: 0; /* 오른쪽 마진 0으로 설정 */
+    width: fit-content; /* 내용에 맞게 너비 조정 */
+}
+
+
+
+
+.photo-section {
+    flex: 1; /* 비율에 따라 너비 조정 */
+}
+
+.info-row {
+    display: flex; /* Flexbox 사용 */
+    align-items: center; /* 수직 중앙 정렬 */
+    margin: 10px 0; /* 상하 여백 */
+}
+
+.info-section {
+    flex: 2; /* 비율에 따라 너비 조정 */
+}
+
+.info-box {
+    margin: 10px 0; /* 상자 간격 */
+    padding: 15px; /* 안쪽 여백 */
+}
+
+#hanmady .text-xl-start {
+    padding-left: 190px; /* 원하는 여백 크기로 조절 가능 */
+}
+
+.footer-text {
+    font-size: 0.7rem; /* 글씨 크기를 더 작게 설정 */
+    margin-bottom: 0; /* 아래 마진 제거 */
+    color: #808080; /* 기본 폰트 색상 지정 */
+}
+
+
+.modal-custom {
+    max-width: 95%; /* 최대 너비를 95%로 설정 */
+    max-height: 95%; /* 최대 높이를 95%로 설정 */
+    margin: auto; /* 모달을 중앙에 배치 */
+}
+
+.carousel-item img {
+    max-height: 90vh; /* 최대 높이를 화면의 90%로 설정 */
+    max-width: 100%; /* 최대 너비를 100%로 설정 */
+    object-fit: contain; /* 이미지 비율 유지 */
+}
+

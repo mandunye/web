@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2024 KoEunji Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+      <!-- 네비게이션 영역 시작 -->
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <img id="logo" src="image/go.png" alt="로고" style="cursor: pointer;">
+            <a class="navbar-brand" href="#home"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto my-2">
+                    <li class="nav-item"><a class="nav-link" href="#home">홈</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#info">info</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            포트폴리오
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="STOREET.html">STOREET</a></li>
+                            <li><a class="dropdown-item" href="GSredesign.html">GS redesign</a></li>
+                            <li><a class="dropdown-item" href="Buddy.html">Buddy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://notefolio.net/yjgoh">노트폴리오</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://blog.naver.com/dhko2000">블로그</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <script>
+        document.getElementById('logo').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // 부드러운 스크롤
+            });
+        });
+    </script>
+    
+<!--헤더 시작작-->
+<header id="home" class="d-flex flex-column justify-content-center align-items-center vh-100 text-white">
+
+    <h1 class="display-3 fw-bold mb-5"></h1>
+    <h4 class="fs-2 mb-3"></h4>
+    <p class="lead mb-5"></p>
+
+      </header>
+      <!-- 헤더 영역 끝 -->
+
+
+
+<!--한마디디 시작 -->
+    <section id="hanmady" class="container-fluid py-5">
+        <div class="text-xl-start">
+            <pre>
+
+
+
+            </pre>
+            <h1 class="fw-bold">깊이 <span class="highlight">사고</span>하고 타인과 <span class="highlight">협력</span>하는</h1>
+            <h1 class="fw-bold">디자이너 고은지 입니다.</h1>
+        </div>
+    </section>
+  </section>
+<!--한마디디 끝끝 -->
+
+<!-- info 시작작 -->
+<section class="container py-5" id="info">
+    <div class="row">
+        <div class="col-md-5 photo-section">
+            <img src="image/KoEunji.png" alt="프로필 사진" class="img-fluid">
+        </div>
+
+        <div class="col-md-7 info-section">
+            <h3 class="fw-bold mb-3">Information</h3>
+            <pre>
+
+
+
+
+            </pre>
+
+
+
+            <div class="table-container container-fluid">
+                <table class="table border-0">
+
+                <tbody>
+                    
+
+                    <tr>
+                        <td>Name</td>
+                        <td>고은지</td>
+                        <td>2022</td>
+                        <td>서울여자대학교 UX 소학회 G-dot</td>
+                    </tr>
+                    <tr>
+                        <td>Birth</td>
+                        <td>2001.03.11</td>
+                        <td>2024</td>
+                        <td style="white-space: nowrap;">서울여자대학교 산업디자인 졸업전시회 졸업전시 부위원장</td>
+                    </tr>
+                    <tr>
+                        <td style="white-space: nowrap;">E-mail</td>
+                        <td>yjgoh01@gmail.com</td>
+                        <td>2020</td>
+                        <td>대전여자고등학교 졸업</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tool</td>
+                        <td>Figma, AI, UX methodology, Fusion360, Ps</td>
+                        <td>2025</td>
+                        <td>서울여자대학교 산업디자인과 졸업</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!-- info 끝 -->
+    
+<!-- 풋터 시작작 -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p class="footer-text">&copy; 2023 고은지. All Rights Reserved.</p>
+        <p class="footer-text">연락처: yjgoh01@gmail.com | 전화: 010-7917-0311</p>
+        <div class="mt-2 footer-text">
+            개인정보 처리방침 | 사이트 맵
+        </div>
+    </div>
+</footer>
+
+<!-- 풋터 끝 -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
